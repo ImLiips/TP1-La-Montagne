@@ -1,0 +1,33 @@
+.section-1 {
+    color: white;  
+    
+    h1 {
+        @include center;
+        font-family: $font1;
+        font-size: 5rem;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        letter-spacing: 6px;
+        max-width: 40%;
+        margin: 240px auto 60px;
+    }
+    
+    p {
+        @include center;
+        font-family: $font2;
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 0 auto 100px
+    }
+
+    i {
+        @include center;
+        border: solid 2px white;
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 200px;
+        font-size: 2rem;
+    }
+}

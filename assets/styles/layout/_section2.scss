@@ -1,0 +1,38 @@
+.section-2 {
+    text-align: center;
+    background: rgb(250, 250, 250);
+    width: 73%;
+    margin: 0 auto;
+    @include center;
+    
+    h5 {
+        font-family: $font2;
+        margin: 60px auto;
+    }
+  
+    h2 {
+        text-transform: uppercase;
+        font-family: $font1;
+        font-size: 4.5rem;
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    p {
+        font-family: $font2;
+        font-size: 1.2rem;
+        max-width: 53%;
+        margin: 50px auto;
+        line-height: 40px;
+    }
+    img {
+        width: 1250px;
+        height: auto;
+        
+    }
+    button {
+        @include center;
+        margin: 60px auto 90px;
+        
+}
+
+}
